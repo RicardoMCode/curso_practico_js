@@ -7,8 +7,45 @@
     <title>Figuras geométricas - Curso práctico JS | Platzi</title>
 </head>
 <body>
-    <main>
+    <header>
         <h1>Figuras geométricas</h1>
+    </header>
+    <main>
+        <section aria-level="1">
+            <form>
+                <label for="lado">
+                    <span>¿Cúal es la medida de un lado?</span>
+                    <input type="number" id="lado" placeholder="0" min="0">
+                </label>
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular permimetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular área</button>
+            </form>
+        </section>
+        <section aria-level="1">
+            <label for="lado1">¿Cúal es la medida de sus lados?</label>
+            <label for="lado1">
+                <span>lado 1</span>
+                <input type="number" id="lado1" placeholder="0" min="0">
+            </label>
+            <label for="lado2">
+                <span>Lado 2</span>
+                <input type="number" id="lado2" placeholder="0" min="0">
+            </label>
+            <label for="lado3">
+                <span>Lado 3</span>
+                <input type="number" id="lado3" placeholder="0" min="0">
+            </label>
+            <button type="button" onclick="calcularPerimetroTriangulo()">Calcular permimetro</button>
+            <button type="button" onclick="calcularAreaTriangulo()">Calcular área</button>
+        </section>
+        <section aria-level="1">
+            <label for="radio">
+                <span>¿Cúal es la medida del radio?</span>
+                <input type="number" id="radio" placeholder="0" min="0">
+            </label>
+            <button type="button" onclick="calcularPerimetroCirculo()">Calcular permimetro</button>
+            <button type="button" onclick="calcularAreaCirculo()">Calcular área</button>
+        </section>
     </main>
 <!--Importo los recursos JS-->
 <script src="./figuras.js"></script>
