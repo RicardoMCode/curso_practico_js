@@ -1,5 +1,3 @@
-//Ecmas6+
-
 //CUADRADO
 const perimetroCuadrado = (lado) => lado * 4;
 const areaCuadrado = (lado) => lado**2;
@@ -13,7 +11,7 @@ const diametroCirculo = (radio) => radio * 2;
 const perimetroCirculo = (radio) => diametroCirculo(radio) * Math.PI;
 const areaCirculo = (radio) => radio**2 *Math.PI;
 
-//Onclicks 
+//Onclicks - Cálculos
 function calcularPerimetroCuadrado(){
     const TbxLado = document.getElementById("lado");
     alert(perimetroCuadrado(TbxLado.value));

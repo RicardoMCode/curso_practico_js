@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de descuentos</title>
+</head>
+<body>
+    <main>
+        <section>
+        <h1>Calculadora de descuentos</h1>
+        <label>
+            <span>Valor del producto sin descuento</span>
+            <input type="number" id="precio" placeholder="0" min="0">
+        </label>
+        <label>
+            <span>Porcentaje de descuento</span>
+            <input type="number" id="porcentajeDescuento" placeholder="0" min="0" max="90">
+        </label>
+        <button type="button" onclick="OnClickCalcularPrecioConDescuento()">Calcular descuento</button>
+        <p id="precioConDescuento">
+        </p>
+        </section>
+        <section>
+        <h1>Descuento con cupón</h1>
+        <label>
+            <span>Valor del producto sin descuento</span>
+            <input type="number" id="precioParaCupon" placeholder="0" min="0">
+        </label>
+        <label>
+            <span>Cupón </span>
+            <input type="text" id="codigoCupon" placeholder="*****">
+        </label>
+        <button type="button" onclick="OnClickCalcularPrecioDescuentoCupon()">Aplicar cupón</button>
+        <p id="resultadoCupon">
+        </p>
+        </section>
+    </main>
+    <script src="./descuentos.js"></script>
+</body>
+</html>
