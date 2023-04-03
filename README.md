@@ -1,6 +1,6 @@
-# Curso práctico de JavaScript en Platzi 💚
+# Curso práctico de JavaScript
 
-En este repositorio se desarrolla el contenido del curso práctico de JavaScript de Platzi, además se aplican conceptos aprendidos de otros cursos, como los cursos de Git y GitHub, EcmaScript6+, definitivo de HTML y CCSS y FontEnd Developer.
+En este repositorio se desarrolla el contenido del curso práctico de JavaScript y se aplican conceptos de (Git y GitHub), EcmaScript6+,  HTML y CCSS y FontEnd Developer.
 
 ## Conceptos aplicados
 
